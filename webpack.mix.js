@@ -16,10 +16,10 @@ mix
     .remove(['dist/**'])
 
 mix
-    .js('json/lib/lodash.json.js', 'dist/lodash.json.js')
-    .js('template/lib/lodash.template.js', 'dist/lodash.template.js')
-    .js('geo/lib/lodash.geo.js', 'dist/lodash.geo.js')
-    .js('extra/lib/lodash.extra.js', 'dist/lodash.extra.js')
-    .js('extra/lib/lodash.all.js', 'dist/lodash.all.js')
+    .js('src/json/lib/lodash.json.js', 'dist/lodash.json.js')
+    .js('src/template/lib/lodash.template.js', 'dist/lodash.template.js')
+    .js('src/geo/lib/lodash.geo.js', 'dist/lodash.geo.js')
+    .js('src/extra/lib/lodash.extra.js', 'dist/lodash.extra.js')
+    .js('src/extra/lib/lodash.all.js', 'dist/lodash.all.js')
     .sourceMaps()
 

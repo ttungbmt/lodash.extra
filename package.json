@@ -6,6 +6,7 @@
   "keywords": "lodash json",
   "author": "Truong Thanh Tung <ttungbmt@gmail.com>",
   "repository": "lodash/lodash",
+  "main": "src/index.js",
   "scripts": {
     "dev": "npm run development",
     "development": "cross-env NODE_ENV=development node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
