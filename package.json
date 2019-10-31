@@ -17,7 +17,7 @@
   },
   "dependencies": {
     "handlebars": "^4.1.2",
-    "lodash": "^4.17.11",
+    "lodash": "^4.17.13",
     "uniqid": "^5.0.3",
     "uuid": "^3.3.2",
     "validator": "^11.0.0",
