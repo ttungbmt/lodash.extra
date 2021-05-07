@@ -16,7 +16,7 @@
     "production": "cross-env NODE_ENV=production node_modules/webpack/bin/webpack.js --no-progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js"
   },
   "dependencies": {
-    "handlebars": "^4.1.2",
+    "handlebars": "^4.7.7",
     "lodash": "^4.17.11",
     "uniqid": "^5.0.3",
     "uuid": "^3.3.2",
